@@ -1,8 +1,12 @@
 {
 	"name": "mmm-shelly-pm",
 	"version": "1.0.0",
-	"description": "bla",
+	"description": "A simple MagicMirror² module to display data from a Shelly-PM device.",
 	"main": "MMM-Shelly-PM.js",
+	"keywords": [
+	    "shelly",
+	    "sensor"
+	],
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
@@ -11,7 +15,7 @@
 		"url": "git+https://github.com/stefanjacobs/MMM-Shelly-PM"
 	},
 	"author": "",
-	"license": "UNLICENSE",
+	"license": "Unlicense",
 	"bugs": {
 		"url": "https://github.com/stefanjacobs/MMM-Shelly-PM/issues"
 	},
