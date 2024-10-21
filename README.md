@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a simple MagicMirror module to display ONE Shelly PM sensor data (temperature and power) on Magic Mirror.
+This is a simple module for [MagicMirror²](https://github.com/MagicMirrorOrg/MagicMirror) to display ONE Shelly PM sensor data (temperature and power).
 
 Feel free to extend to fulfill your own needs, This fulfills my needs. See the configuration and some pictures [here](https://github.com/stefanjacobs/MagicMirror).
 
@@ -25,7 +25,7 @@ Feel free to enhance :)
 
 Include this (or multiple instances of it) in your config.js file:
 
-```json
+```js
 {
     module: "MMM-Shelly-PM",
     header: "Shelly-PM",
@@ -53,6 +53,7 @@ Go to your MagicMirror directory
 ```bash
 cd modules
 git clone https://github.com/stefanjacobs/MMM-Shelly-PM
+npm install
 ```
 
 Check out the config.sample.js in the module directory. Copy the content to your config.js and change as necessary. You have to change ShellyApiPath to your device's IP address.
